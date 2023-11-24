@@ -44,6 +44,7 @@ h4{
     color: rgb(0, 191, 255);
     padding-bottom: 0;
     font-family:RobotoBold;
+    margin-top: 0;
 }
 h2{
     color:white;
@@ -76,11 +77,10 @@ p{
 .sec6{
     display: flex;
     background-image: url('../img/overly-img.png');
-    background-position:right;
-    background-position: top;
     background-color:rgb(2, 2, 80);
     padding-top: 50px;
     padding-bottom: 80px;
+    margin-bottom: 0;
 }
 .carre1,.carre2,.carre2,.carre3,.carre4{
     background-color: rgb(5, 5, 130);
@@ -118,3 +118,39 @@ button:hover{
     background-color: rgb(2, 2, 80);
     border: solid rgb(9,171,225) 1px;
 }
+/*------------------end section6--------------*/
+/*------------------start section7------------*/
+.sec7{
+    background-color: rgb(2, 2, 80);
+    margin-top: 0;
+    padding-bottom: 80px;
+}
+.images{
+    padding-left: 15%;
+}
+.images{
+    display: flex;
+}
+.sec7 h4 ,.sec7 h2{
+    text-align: center;
+} 
+.rightimage,.leftimage{
+    margin: 20px;
+    position: relative;
+}
+.imginfo{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+h3{
+    color: white;
+    text-align: start;
+    font-size: 2em;
+    margin-top: 0;
+}
+.imginfo p{
+    color: white;
+}
+/*-----------------end section7-----------------*/
+/*-----------------start section8---------------*/
