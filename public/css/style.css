@@ -1,8 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100vw;
 }
 
 .sec1{
@@ -11,9 +9,50 @@ body{
     width: 100%;
 }
 
-header{
+.sec1Top{
     height: 200px;
     width: 100%;
     display: flex;
 }
+
+.headerLeft{
+    height: 100% ;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoHeader{
+    height: 150px;
+    width: 170px;
+}
+
+.headerRight{
+    height: 100% ;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar1{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    color: white;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+.sec1Bottom{
+    height: 600px;
+    width: 100%;
+}
+
 
