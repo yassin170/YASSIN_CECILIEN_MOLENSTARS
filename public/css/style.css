@@ -1,3 +1,4 @@
+/*----------start section5--------------*/
 body{
     margin: 0;
     font-family: OswaldRegular;
@@ -14,6 +15,8 @@ body{
     padding-left: 15%;
     display: flex;
     flex-direction: column;
+    padding-right: 10px;
+    padding-bottom: 80px;
 }
 .percent{
     display: flex;
@@ -44,7 +47,9 @@ h4{
 }
 h2{
     color:white;
-    font-size: 2em;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 p{
     color: rgb(165, 162, 162);
@@ -62,4 +67,54 @@ p{
 .petit{
     font-size: 0.8em;
     color: white;
+}
+/*--------------------end section5--------------*/
+/*--------------------start section6------------*/
+.leftpart{
+    padding-left: 15%;
+}
+.sec6{
+    display: flex;
+    background-image: url('../img/overly-img.png');
+    background-position:right;
+    background-position: top;
+    background-color:rgb(2, 2, 80);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.carre1,.carre2,.carre2,.carre3,.carre4{
+    background-color: rgb(5, 5, 130);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftpart{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightpart{
+    width:50%;
+    padding-right: 15%;
+    text-align: start;
+}
+.gros{
+    color: white;
+    font-size: 2.5em;
+}
+button{
+    background-color: rgb(9,171,225);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: rgb(2, 2, 80);
+    border: solid rgb(9,171,225) 1px;
 }
