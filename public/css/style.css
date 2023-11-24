@@ -1,11 +1,13 @@
 body{
     margin: 0;
+    font-family: OswaldRegular;
 }
 .sec5{
     display: flex;
     background-image:url('../img/banner-overlay-img.png');
     background-position: left;
     background-color: rgb(2, 2, 80);
+    position: relative;
 }
 .part1{
     width: 50%;
@@ -18,10 +20,11 @@ body{
     font-size: 3em;
     justify-content: space-evenly;
     color: white;
+    margin: 3%;
 }
 .rond1,.rond2,.rond3{
     display: flex;
-    border: solid rgb(9, 171, 225) 4px;
+    border: solid rgb(4, 192, 255) 4px;
     width: 15vh;
     height: 15vh;
     justify-content: center;
@@ -33,4 +36,30 @@ body{
     color: white;
     justify-content: space-evenly;
     text-align: center;
+}
+h4{
+    color: rgb(0, 191, 255);
+    padding-bottom: 0;
+    font-family:RobotoBold;
+}
+h2{
+    color:white;
+    font-size: 2em;
+}
+p{
+    color: rgb(165, 162, 162);
+}
+.bluething{
+    background-color: rgb(9,171,225);
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    padding-left:2%;
+    padding-top: 2%;
+    border-radius: 5% 0 0 0;
+}
+.petit{
+    font-size: 0.8em;
+    color: white;
 }
