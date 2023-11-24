@@ -44,15 +44,19 @@ body{
     font-size: x-large;
 }
 
-
-
-
-
-
+.ContactUs{
+    background-color: #08d3f1;
+    border-radius: 38%;
+    padding: 10px 20px;
+}
 
 .sec1Bottom{
     height: 600px;
     width: 100%;
 }
 
+.sec1BottomText{
+    height: 100%;
+    width: 50%;
+}
 
