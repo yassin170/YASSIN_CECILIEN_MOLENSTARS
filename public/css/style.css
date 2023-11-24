@@ -306,3 +306,36 @@ h3{
 }
 /*-----------------end section7-----------------*/
 /*-----------------start section8---------------*/
+.sec8{
+    background-color: rgb(2, 2, 80);
+}
+.sec8 h4,.sec8 h2{
+    text-align: center;
+}
+form{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+.forml1{
+    display: flex;
+
+}
+input{
+    width: 33%;
+    margin: 0px 10px;
+}
+.forml2{
+}
+textarea{
+    width: 99%;
+    margin: 10px;
+}
+textarea, input{
+    background-color: rgb(2, 2, 80);
+    border: solid 1px rgb(64, 64, 156);
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+/*------------------end section8----------------*/
+/*------------------start footer----------------*/
