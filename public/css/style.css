@@ -146,8 +146,83 @@ h1{
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/*                                          section 2                                                    */
+/*                                          section 2     branche sec2                                   */
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.sec2{
+    background-image: url(./../img/banner-overlay-img.png);
+}
+
+.sec2Top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.h4Sec2Top{
+    margin: 0;
+}
+
+.imgSec2{
+    display: flex;
+    gap: 50px;
+}
+
+.itemSec2{
+    background-color: #123d7a58;
+    border-radius: 60px;
+}
+
+.sec2Bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.sec2BottomLeft{
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigImgSec2{
+    height: 350px;
+    width: 420px;
+}
+
+.sec2BottomRight{
+    margin-right: 15%;
+}
+
+
+
+.sec2BottomRightBottom{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*----------start section5--------------*/
