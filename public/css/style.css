@@ -234,16 +234,20 @@ p{
     padding-bottom: 80px;
     margin-bottom: 0;
 }
-.carre1,.carre2,.carre2,.carre3,.carre4{
+.carre1,.carre2,.carre3,.carre4{
     background-color: rgb(5, 5, 130);
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.carre1 p,.carre2 p,.carre3 p,.carre4 p{
+    margin: 0;
+    
 }
 .leftpart{
     width: 50%;
@@ -257,18 +261,18 @@ p{
 }
 .gros{
     color: white;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
-button{
+.sec6 button, .sec8 button{
     background-color: rgb(9,171,225);
     color: white;
     border: none;
     padding: 15px 25px;
     border-radius: 30px;
-}
-button:hover{
-    background-color: rgb(2, 2, 80);
     border: solid rgb(9,171,225) 1px;
+}
+.sec6 button:hover, .sec8 button:hover{
+    background-color: rgb(2, 2, 80);
 }
 /*------------------end section6--------------*/
 /*------------------start section7------------*/
@@ -279,6 +283,7 @@ button:hover{
 }
 .images{
     padding-left: 15%;
+    padding-right: 15%;
 }
 .images{
     display: flex;
@@ -308,6 +313,8 @@ h3{
 /*-----------------start section8---------------*/
 .sec8{
     background-color: rgb(2, 2, 80);
+    text-align: center;
+    padding-bottom: 80px;
 }
 .sec8 h4,.sec8 h2{
     text-align: center;
@@ -325,8 +332,6 @@ input{
     width: 33%;
     margin: 0px 10px;
 }
-.forml2{
-}
 textarea{
     width: 99%;
     margin: 10px;
@@ -337,5 +342,93 @@ textarea, input{
     padding: 10px 5px;
     border-radius: 5px;
 }
+::placeholder{
+    color: rgb(64, 64, 156);
+}
 /*------------------end section8----------------*/
 /*------------------start footer----------------*/
+footer{
+    background-image: url('../img/overly-img.png');
+    background-color: rgba(18,32,97,255);
+    background-size: contain;
+    padding-top: 80px;
+}
+.footmail>button{
+    background-color: none;
+}
+.topsec{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+    column-gap: 50px;
+}
+.footerlogo{
+    width: 25%;
+}
+h6{
+    color: white;
+    font-size: 1em;
+}
+i{
+    margin-left: 15px;
+}
+.footlow{
+    text-align: center;
+    border-top: solid 1px rgb(64, 64, 156);
+    color: rgb(64, 64, 156);
+    padding: 10px 0;
+}
+.footmail>input{
+    background-color: rgba(18,32,97,255);
+    border: none;
+    width: 70%;
+}
+.footmail{
+    border: solid 1px rgb(64, 64, 156);
+    border-radius: 5px;
+    display: flex;
+}
+.footmail button{
+    background-color: rgba(18,32,97,255);
+    border: none;
+}
+label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 11px;
+    color: rgb(64, 64, 156);
+  }
+  
+  label:before {
+    content: "";
+    display: inline-block;
+   
+    width: 16px;
+    height: 16px;
+   
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: rgba(18,32,97,255);
+    border:solid 3px rgb(9,171,225);
+    border-radius: 3px;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 12px;
+    color: rgb(9,171,225);
+    text-align: center;
+      line-height: 12px;
+  }
