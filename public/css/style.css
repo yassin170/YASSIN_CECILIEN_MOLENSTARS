@@ -465,6 +465,8 @@ p{
 .rightimage,.leftimage{
     margin: 20px;
     position: relative;
+    overflow: hidden;
+    border-radius: 15px;
 }
 .imginfo{
     position: absolute;
@@ -611,7 +613,7 @@ label {
 .leftimage img,.rightimage img{
     transition: all 0.5s;
 }
-.leftimage p:hover, .leftimage h3:hover, .rightimage p:hover, .rightimage h3:hover img{
+.leftimage p:hover, .leftimage h3:hover, .rightimage p:hover, .rightimage h3:hover {
     color: rgb(9,171,225);
 }
 .footmail button{
