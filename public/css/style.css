@@ -201,6 +201,11 @@ h1{
 .itemSec2:hover img{
     transition: 1s;
     transform: translateY(-10px);
+    filter: brightness(0) invert(1);
+}
+
+.itemSec2:hover{
+    background-color: #08d3f1;
 }
 
 /*---------------------------------------------------------------*/
