@@ -618,3 +618,21 @@ label {
     text-align: center;
     line-height: 12px;
   }
+      /*---------------------------end footer---------------------*/
+  /*---------------------------start transitions--------------*/
+  .leftimage:hover img, .rightimage:hover img{
+    transform: scale(1.1) rotateZ(3deg);
+}
+.leftimage img,.rightimage img{
+    transition: all 0.5s;
+}
+.leftimage p:hover, .leftimage h3:hover, .rightimage p:hover, .rightimage h3:hover img{
+    color: rgb(9,171,225);
+}
+.footmail button{
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+.footmail>button:hover{
+    background-color: rgb(107, 107, 165);
+}
