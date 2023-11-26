@@ -157,6 +157,9 @@ h1{
 .sec2{
     background-color: #123d7a;
     width: auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-bottom: 0;
 }
 
 .sec2Top{
@@ -245,6 +248,9 @@ h1{
 .sec3{
     background-color: #123d7a;
     background-image: url(./../img/banner-overlay-img.png);
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-bottom: 0;
 }
 
 .sec3Top{
@@ -253,11 +259,58 @@ h1{
     align-items: center;
     padding-top: 50px;
     text-align: center;
+    gap: 10px;
 }
 
 .h4Sec3{
     margin: 0;
 }
+
+.sec3Contain{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.lescarrer{
+    background-color: rgb(5, 5, 130);
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lescarrer p{
+    margin: 0;
+}
+
+.lescarrer:hover img{
+    transition: 1s;
+    transform: translateY(-10px);
+}
+
+.sec3Bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.sec3btn{
+    background-color: #08d3f1;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 1px solid #08d3f1;
+}
+
+.sec3btn:hover{
+    background-color: transparent;
+}
+
 
 
 
