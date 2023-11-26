@@ -13,6 +13,7 @@ body{
 
 .sec1{
     background-image: url(./../img/banner-overlay-img.png);
+    background-color:#123d7a ;
     height: 800px;
     width: 100%;
 }
@@ -199,12 +200,6 @@ h1{
     width: 90px;
 }
 
-
-
-
-
-
-
 /*---------------------------------------------------------------*/
 /*                      section2 bottom                          */
 /*---------------------------------------------------------------*/
@@ -235,7 +230,10 @@ h1{
 .sec2BottomRightBottom{
     display: flex;
     flex-direction: column;
+    list-style: url(./../img/check.png);
+    padding-left: 23px;
 }
+
 
 
 
