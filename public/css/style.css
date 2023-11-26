@@ -149,18 +149,22 @@ h1{
 /*                                          section 2     branche sec2                                   */
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
+/*---------------------------------------------------------------*/
+/*                      section2 top                             */
+/*---------------------------------------------------------------*/
 
 .sec2{
-    background-image: url(./../img/banner-overlay-img.png);
+    background-color: #123d7a;
+    width: auto;
 }
 
 .sec2Top{
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top: 50px;
     gap: 10px;
+    padding-top: 50px;
 }
 
 .h4Sec2Top{
@@ -169,13 +173,41 @@ h1{
 
 .imgSec2{
     display: flex;
-    gap: 50px;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    gap: 2%;
 }
 
 .itemSec2{
-    background-color: #123d7a58;
-    border-radius: 60px;
+    background-color: #17256E;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
+
+.itemSec2 > img{
+    height: 80px;
+    width: 80px;
+}
+
+.itemSec2>img:hover{
+    height: 90px;
+    width: 90px;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------------------*/
+/*                      section2 bottom                          */
+/*---------------------------------------------------------------*/
 
 .sec2Bottom{
     margin-top: 50px;
@@ -199,8 +231,6 @@ h1{
 .sec2BottomRight{
     margin-right: 15%;
 }
-
-
 
 .sec2BottomRightBottom{
     display: flex;
