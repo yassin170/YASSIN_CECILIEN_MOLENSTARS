@@ -147,17 +147,11 @@ h1{
 }
 
 .sec1BottomRight{
-    height: 100%;
-    width: 50%;
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     padding-right: 15%;
 }
 
-.imgSec1{
-    width: 80%;
-}
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*                                          section 2     branche sec2                                   */
