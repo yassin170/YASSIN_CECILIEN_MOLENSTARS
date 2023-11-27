@@ -208,11 +208,13 @@ h1{
 }
 
 .itemSec2:hover img{
-    transition: 1s;
-    transform: translateY(-10px);
+    animation: deplacement 1s;
     filter: brightness(0) invert(1);
 }
+@keyframes deplacement{
+    100%{transform: translateY(-10px);}
 
+}
 .itemSec2:hover{
     background-color: #08d3f1;
 }
@@ -287,6 +289,7 @@ h1{
 
 .lescarrer{
     background-color: rgb(5, 5, 130);
+    border: solid 2px rgb(5,5,130);
     width: 250px;
     height: 250px;
     margin: 20px;
@@ -300,7 +303,9 @@ h1{
 .lescarrer p{
     margin: 0;
 }
-
+.lescarrer:hover{
+    border: solid 2px rgb(0, 191, 255);
+}
 .lescarrer:hover img{
     transition: 1s;
     transform: translateY(-10px);
@@ -478,7 +483,7 @@ p{
     position: relative;
     overflow: hidden;
     border-radius: 15px;
-    width: 450px;
+    width: 430px;
 }
 .imginfo{
     position: absolute;
