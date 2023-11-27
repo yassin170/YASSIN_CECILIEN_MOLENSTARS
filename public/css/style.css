@@ -240,7 +240,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 250px;
 }
 
 .sec2BottomRight{
@@ -484,7 +484,7 @@ p{
     position: relative;
     overflow: hidden;
     border-radius: 15px;
-    width: 450px;
+    width: 430px;
 }
 .imginfo{
     position: absolute;
