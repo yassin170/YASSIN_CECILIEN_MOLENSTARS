@@ -9,6 +9,9 @@ body{
     margin: 0;
     padding: 0;
 }
+h4{
+    letter-spacing: 0.3em;
+}
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*                                          section 1       branche header                               */
@@ -25,95 +28,76 @@ body{
 .ContactUs{
     background-color: #08d3f1;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 10px 40px;
+    border: solid 1px #08d3f1;
+}
+.ContactUs:hover{
+    background-color: transparent;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    column-gap: 150px;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
 }
 
 /*---------------------------------------------------------------*/
 /*                      section1 bottom                          */
 /*---------------------------------------------------------------*/
-
 .sec1Bottom{
-    height: 600px;
-    width: 100%;
     display: flex;
-}
-
-.sec1BottomLeft{
-    height: 100%;
-    width: 50%;
-    color: white;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding-left: 15%;
+    column-gap: 50px;
+    padding-top: 7%;
+    margin-left: 25%;
 }
-
+.sec1BottomLeft{
+    color: white;
+}
 h1{
     font-weight: bolder;
     font-size: 3em;
     margin: 0%;
+    font-family: 'Roboto';
 }
-
-.sec1BottomLeftText{
-    opacity: 0.8;
-}
-
 .navbar2{
-    list-style-type: none;
-    padding: 0;
-    font-size: large;
     display: flex;
-    gap: 30px;
     flex-wrap: wrap;
+    font-family: 'Roboto';
+    column-gap: 15px;
+    font-size: 1em;
 }
-
+.navbar2Right,.navbar2Left{
+    border-radius: 40px;
+    padding: 15px 40px;
+}
+.navbar2Right{
+    background-color: rgba(33,82,161,255);
+    border:solid 1px rgba(33,82,161,255);
+}
 .navbar2Left{
     border: 1px solid transparent;
     background-color: #08d3f1;
-    border-radius: 40px;
-    height: 30px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.navbar2Right{
-    border: 1px solid transparent;
-    background-color:#3c73c0;
-    border-radius: 40px;
-    height: 30px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .navbar2Left:hover{
     border: 1px solid #08d3f1;
     background-color: transparent;
     border-radius: 40px;
-}
-.ContactUs{
-    border: solid 1px #08d3f1;
-}
-.ContactUs:hover{
-    border: 1px solid #08d3f1;
-    background-color: transparent;
 }
 .navbar2Right:hover{
     border: 1px solid #3c73c0;
     background-color:transparent;
     border-radius: 40px;
 }
-
-.sec1BottomRight{
-    display: flex;
-    justify-content: center;
-    padding-right: 15%;
-}
-
-
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*                                          section 2     branche sec2                                   */
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -123,45 +107,26 @@ h1{
 /*---------------------------------------------------------------*/
 
 .sec2{
-    padding-top: 50px;
-    padding-bottom: 80px;
-    margin-bottom: 0;
     background-color: rgba(10,22,80,255);
 }
-
-
 .sec2Top{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding-top: 50px;
+    text-align: center;
 }
-
-.h4Sec2Top{
-    margin: 0;
-}
-
 .imgSec2{
     display: flex;
-    height: 80%;
-    width: 100%;
     justify-content: center;
-    gap: 2%;
+    column-gap: 2%;
     flex-wrap: wrap;
 }
 
 .itemSec2{
     background-color: #17256E;
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 150px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    margin-top: 5px;
-    padding: 15px;
 }
 
 .itemSec2 > img{
@@ -172,9 +137,10 @@ h1{
 .itemSec2:hover img{
     animation: deplacement 1s;
     filter: brightness(0) invert(1);
+    animation-fill-mode: both;
 }
 @keyframes deplacement{
-    100%{transform: translateY(-10px);}
+    100%{transform: translateY(-20px);}
 
 }
 .itemSec2:hover{
@@ -604,7 +570,7 @@ label {
 }
 /*---------------------------end animation--------------------*/
 /*---------------------------start responsive-----------------*/
-@media (max-width:900px){
+/*@media (max-width:900px){
     .navbar1{
         font-size: 1.5em;
     }
@@ -662,4 +628,4 @@ label {
         padding-left: 5px;
         padding-right: 5px;
     }
-}
+}*/
