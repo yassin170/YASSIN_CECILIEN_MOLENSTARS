@@ -17,50 +17,11 @@ body{
 /*---------------------------------------------------------------*/
 /*                      section1 top                             */
 /*---------------------------------------------------------------*/
-
-.sec1{
-    background-image: url(./../img/banner-overlay-img.png);
-    background-color:#123d7a ;
-    height: 800px;
-    width: 100%;
+.bgimg{
+    background-image: url('../img/banner-overlay-img.png');
+    background-size: cover;
+    background-color: rgba(10,22,80,255);
 }
-
-.sec1Top{
-    height: 200px;
-    width: 100%;
-    display: flex;
-}
-
-.headerLeft{
-    height: 100% ;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logoHeader{
-    width: 20%;
-}
-
-.headerRight{
-    height: 100% ;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar1{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    list-style-type: none;
-    color: white;
-    font-size: x-large;
-    flex-wrap: wrap;
-}
-
 .ContactUs{
     background-color: #08d3f1;
     border-radius: 25px;
@@ -162,12 +123,12 @@ h1{
 /*---------------------------------------------------------------*/
 
 .sec2{
-    background-color: #123d7a;
-    width: auto;
     padding-top: 50px;
     padding-bottom: 80px;
     margin-bottom: 0;
+    background-color: rgba(10,22,80,255);
 }
+
 
 .sec2Top{
     width: auto;
