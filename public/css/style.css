@@ -438,13 +438,13 @@ p{
 .sec6{
     display: flex;
     background-image: url('../img/overly-img.png');
-    background-color:rgb(2, 2, 80);
+    background-color:rgba(18,32,97,255);
     padding-top: 50px;
     padding-bottom: 80px;
     margin-bottom: 0;
 }
 .carre1,.carre2,.carre3,.carre4{
-    background-color: rgb(5, 5, 130);
+    background-color: rgba(23,37,110,255);
     width: 150px;
     height: 150px;
     margin: 20px;
