@@ -241,7 +241,6 @@ h1{
     display: flex;
     justify-content: center;
     gap: 150px;
-    flex-wrap: wrap;
 }
 
 .sec2BottomLeft{
@@ -249,12 +248,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 50%;
 }
 
 .sec2BottomRight{
     margin-right: 15%;
     margin-left: 50px;
+    width: 50%;
 }
 
 .sec2BottomRightBottom{
@@ -360,6 +360,7 @@ body{
     background-color: rgb(10, 22, 80);
     position: relative;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .part1{
     width: 50%;
@@ -627,8 +628,12 @@ textarea, input{
 footer{
     background-image: url('../img/overly-img.png');
     background-color: rgba(18,32,97,255);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     padding-top: 80px;
+}
+footer p{
+    font-size: 0.9em;
 }
 .footmail>button{
     background-color: none;
@@ -640,6 +645,7 @@ footer{
     justify-content: space-evenly;
     padding-bottom: 80px;
     column-gap: 50px;
+    flex-wrap: wrap;
 }
 .footerlogo{
     width: 25%;
@@ -729,54 +735,43 @@ label {
 }
 /*---------------------------end animation--------------------*/
 /*---------------------------start responsive-----------------*/
-@media (max-width:900px){
-    .navbar1{
-        font-size: 1.5em;
-    }
-    .logoHeader{
-        width: 70%;
-    }
-    .imgSec1{
-        display: none;
-    }
-    .bigImgSec2{
-        display: none;
-    }
-    .bluething{
-        display: none;
-    }
-    .percent{
-        padding-left: 20px;
-        font-size: 1em;
-    }
-    .leftpart{
-        padding-left: 5px;
-    }
-    h2{
-        font-size: 1.5em;
-    }
-    footer{
-        font-size: 0.5em;
-    }
-    .topsec{
-        flex-wrap: wrap;
-    }
-    .footerlogo img{
-        width: 50%;
-    }
-    .rightpart{
-        padding-right: 0;
-        font-size: 0.8em;
-    }
-    .sec1BottomLeft{
-        padding-top: 100px;
-    }
-    .navbar2{
-        font-size: 0.8em;
-    }
-    .sec2Bottom{
-        padding-left: 15%;
-    }
+@media  (max-width:768px){
+   .sec2Bottom{
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+    .sec5{
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+   }
+   .part1{
+    width: 80%;
+   }
+   .part1content{
+    margin-left: 30%;
+   }
+   .part2{
+    width: 100%;
+   }
+   .bluething{
+        height: 19%;
+        width: 45%;
+   }
+   .bluething p{
+    font-size: 100%;
+   }
+   .sec6{
+    flex-direction: column;
+    justify-content: center;
+   }
+   .leftpart{
+    width: 99%;
+    padding-left: 1%;
+   }
+   .rightpart{
+    padding-left: 30%;
+   }
     .rightimage, .leftimage{
         margin: 2px;
     }
